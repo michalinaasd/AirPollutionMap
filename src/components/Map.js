@@ -19,7 +19,7 @@ const options = {
 
 const Map = (props) => {
   const { isLoaded, loadError } = useLoadScript({
-    googleMapsApiKey: "AIzaSyBvSaAH52oO2jBrJdgWrvbZ-RrbNEQcWU8",
+    googleMapsApiKey: "", //your GOOGLE MAPS API key
     libraries,
   });
 
